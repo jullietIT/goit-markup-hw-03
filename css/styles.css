@@ -21,11 +21,15 @@ font-family:Roboto,sans-serif;
 font-style: normal;
 line-height: 1.7;
 font-weight: 400;
+background-color: var(--color-button);
  }
 
   li{
     list-style: none;
   }
+  a{
+    text-decoration: none;}
+
 
    /* header */
 
@@ -44,31 +48,57 @@ text-decoration: none;
 }
 
 /* site nav  */
-.site-nav a {
+.site-nav {
   Size:14px;
   font-weight: 500;
-  line-height: 1.2;
-  text-align: left;
+  line-height: 1.1;
   text-decoration:none;
 }
 
+
 .link-current{
-  color:var(--logo-color);
+color:var(--logo-color);
+Font-style: Medium;
+Font-size: 14px;
+Line-height:1.1;
+text-decoration: none;
+}
+
+
+.contact {
+color:var(--title-text-color);
+Font-style: Medium;
+Font-size: 14px;
+Line-height:1.1;
+text-decoration: none;
 }
 
 .link:hover,
-.link:focus{
+.link:focus,
+.link-email:hover,
+.link-email:focus,
+.contact:hover,
+.contact:focus{
   color: var(--logo-color);
 }
 
 .link{
+ Font-style: Medium;
+Font-size: 14px;
+Line-height:1.1;
   color: var(--primary-text-color);
   text-decoration:none;
 }
+.link-email{
+  color: var(--title-text-color);
+ 
+}
 
 .auth-nav{
-  color:var(--primary-text-color);
   Size:14px;
+  padding: 32px;
+  display: flex;
+
 }
 
 .auth-nav:hover,
@@ -143,7 +173,7 @@ text-align: center;
 
 
   /* Наша команда */
-
+  
 .user-command{
  font-size: 36px;
 font-style: normal;
@@ -154,7 +184,7 @@ letter-spacing: 0.03em;
 }
 
 .user-name {
-    font-size: 16px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height:1.2;
@@ -174,16 +204,22 @@ text-align: center;
 
 /*main-portfolio*/
 .project{
-  color: var(--title-text-color)
-
+  background-color: #EEEEEE;
+   
 }
+
 .project-title{
 color: var(--primary-text-color);
 font-size: 18px;
 font-weight: 700;
 line-height:2;
 letter-spacing: 0.06em;
-text-align: left;
+}
+
+.project-design{
+Font-size: 16px;
+Line-height:1.9;
+color:var(--title-text-color);
 
 }
 
@@ -203,10 +239,11 @@ cursor: pointer;
 background-color:var(--color-button);
 font-size: 16px;
 font-weight: 700;
-line-height: 1.9;
+line-height: 1.6;
 letter-spacing: 0.06em;
 text-align: center;
 cursor: pointer;
+
 }
 
 .button:hover,
@@ -230,6 +267,7 @@ cursor: pointer;
   text-align: left;
   color:var(--accent-color);
   font-style: normal;
+  
 }
 
 .link-contact{
@@ -238,15 +276,13 @@ cursor: pointer;
   font-weight:400;
   Line-height:1.7;
   color:var(--accent-color);
-  text-decoration:none;
   opacity:60%;
   font-style: normal;
 }
 .link-contact:hover,
 .link-contact:focus{
-  color: var(--logo-color);
- 
-}
+  color: var(--title-text-color);
+ }
 
 .logo-white{
   color:var(--accent-color);
