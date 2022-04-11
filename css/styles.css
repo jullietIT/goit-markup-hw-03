@@ -308,15 +308,8 @@ background-color: var(--color-button);
 .button-all {
    color: var(--accent-color);
    background-color: var(--logo-color);
-   font-size: 16px;
-   font-weight: 700;
-   line-height: 1.6;
-   text-align: center;
-   padding: 6px 22px;
-   border:6px 22px;
-   border-radius: 10px;
-   cursor: pointer;
-   }
+  }
+
  
  .button {
    border-radius: 10px;
@@ -327,14 +320,18 @@ background-color: var(--color-button);
    text-align: center;
    cursor: pointer;
    margin-left: 30px;
-   padding: 6px 22px;
-
+   /* padding: 6px 22px;
+   border: 4px; */
   }
- 
+   
+  
+    
  .button:hover,
  .button:active{
-   background-color:  var(--logo-color);
-   color: var(--accent-color);
+   border-color:  #F5F4FA;
+   /* radius: 4px; */
+
+   /* color: var(--accent-color); */
  }
  
  
@@ -390,9 +387,11 @@ padding-top: 4px;
 .container-footer {
   background-color:var(--color-block);
   display: block;
+
 }
 .address{
   padding-left: 0;
+
 }
 
 .link-adress{
@@ -404,7 +403,9 @@ padding-top: 4px;
   text-align: left;
   color:var(--accent-color);
   font-style: normal;
+
   
+ 
 }
 
 .link-contact{
