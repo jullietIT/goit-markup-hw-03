@@ -303,7 +303,9 @@ text-align: center;
     width: 270px;
 }
 
-  
+.user-text{
+  padding: 30px 0;
+}
 
 .user-name {
    margin-bottom: 10px;
