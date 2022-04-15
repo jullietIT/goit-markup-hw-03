@@ -48,6 +48,9 @@ p{
    margin-top: 0;
   margin-bottom: 0
 }
+img {
+  display: block;
+ }
 
 .container{
    width: 1200px;
@@ -79,7 +82,8 @@ p{
 
 /* site nav  */
 .item{
-    margin-top:0 ;
+  padding:  32px 0;
+   margin-top:0 ;
    margin-bottom: 0;
    padding-left: 0;
   
@@ -100,7 +104,7 @@ p{
 
 .link .link-current {
   display: block;
-  padding:  32px 0;
+
   font-style: Medium;
   line-height:1.1;
   color:var(--primary-text-color);
@@ -248,25 +252,31 @@ text-align: center;
    display:flex;
    justify-content: center;
    padding-left: 0px;
-   margin-right: 30px;
+  
    }
-
+.user-workfoto{
+  margin-right: 30px;
+}
  .user-foto:nth-child(3){
      margin-right: 0;
    }
 
 
   /* Наша команда */
- .container-user{
-background-color: var(--color-button);
-  }
+  .user{
+    padding-top: 94px;
+    background-color: var(--color-button);
+   
+ }
+
+
 .feature {
     display: flex;
     justify-content: center;
-    padding-bottom: 94px;
-    padding-left: 0px;
+      padding-left: 0px;
     
-   }
+}
+
    .feature-command{
     width: 270px;
     margin-right: 30px;
@@ -285,29 +295,26 @@ background-color: var(--color-button);
    line-height: 1.16;
    text-align: center;
    letter-spacing: 0.03em;
-   padding-top: 94px;
-   padding-bottom: 50px;
+  margin-bottom: 50px;
    }
    
 
 .command-foto{
     width: 270px;
-  }
+}
 
   
 
 .user-name {
    margin-bottom: 10px;
-   padding-top: 30px;
 
-  font-size: 16px;
+   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height:1.2;
   letter-spacing: 0.03em;
   text-align: center;
-  
-   }
+}
 
 .user-prof{
    color:var(--title-text-color);
@@ -317,8 +324,7 @@ background-color: var(--color-button);
    letter-spacing: 0.03em;
    text-align: center;
    margin: 0;
-   padding-top: 10px;
-  }
+}
 
 
 /*main-portfolio*/
@@ -417,6 +423,7 @@ padding-top: 4px;
 /* footer*/
 .footer{
   background-color:var(--color-block);
+  padding: 60px 0;
 
 }
 .container-footer {
@@ -426,6 +433,7 @@ padding-top: 4px;
 }
 .address{
   padding-left: 0;
+  margin-top: 20px;
 
 }
 
