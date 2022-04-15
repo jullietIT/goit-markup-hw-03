@@ -330,14 +330,16 @@ text-align: center;
 /*main-portfolio*/
 
 /*кнопки навигации*/
+.button{
+  padding-top:94px;
+  padding-left: 0;
+}
 
 .section-button{
    display: flex;
    justify-content:center;
-  
-   padding-top:94px;
-   padding-left: 0;
-   }
+   
+ }
 
 
 .button-all {
@@ -346,7 +348,7 @@ text-align: center;
   }
 
  
- .button {
+ .button-item {
   margin-right: 8px;
 
    border-radius: 10px;
@@ -358,12 +360,12 @@ text-align: center;
    cursor: pointer;
    
   }
-  .button:nth-child(5){
+  .button-item:nth-child(5){
     margin-right: 0px;
   }
    
- .button:hover,
- .button:active{
+ .button-item,
+ .button-item{
    border-color:  #F5F4FA;
    /* radius: 4px; */
 
