@@ -234,7 +234,7 @@ text-align: center;
 
 
 /*Чем мы занимаемся*/
-.user{
+.section-user{
   padding-bottom:  94px;
 }
 .user-work{
@@ -273,7 +273,7 @@ text-align: center;
 .feature {
     display: flex;
     justify-content: center;
-      padding-left: 0px;
+     padding-left: 0px;
     
 }
 
