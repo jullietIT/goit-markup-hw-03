@@ -102,6 +102,8 @@ img {
   margin-right:50px;
 }
 
+
+
 .link .link-current {
   display: block;
 
@@ -128,9 +130,21 @@ img {
    Line-height:1.1;
    text-decoration: none;
    }
-
+   
 .auth-nav .item:not(:last-child) {
   margin-right:50px;
+}
+.auth-nav-email{
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  padding: 32px 0;
+
+}
+.auth-nav-phone{
+width: 10px;
+height: 16px;
+  padding: 30px 0;
 }
 
 .link-email,
@@ -154,6 +168,13 @@ img {
 /*main-index шапка*/
 .section-hero{
   background-color:var(--color-block);
+  /* box-shadow: linear-gradient  rgba(47, 48, 58, 0.4); */
+  background-image: linear-gradient( to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+
+
   padding: 200px 0;
 
 }
@@ -234,7 +255,7 @@ text-align: center;
 
 
 /*Чем мы занимаемся*/
-.user{
+.section-user{
   padding-bottom:  94px;
 }
 .user-work{
@@ -265,6 +286,7 @@ text-align: center;
   /* Наша команда */
   .user{
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--color-button);
    
  }
@@ -273,11 +295,16 @@ text-align: center;
 .feature {
     display: flex;
     justify-content: center;
-      padding-left: 0px;
+     padding-left: 0px;
+     
     
 }
 
    .feature-command{
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
     width: 270px;
     margin-right: 30px;
     background-color: var(--accent-color);
@@ -305,6 +332,10 @@ text-align: center;
 
 .user-text{
   padding: 30px 0;
+
+
+  
+     
 }
 
 .user-name {
@@ -351,7 +382,7 @@ text-align: center;
 
  
  .button-item {
-  margin-right: 8px;
+  margin-right: 52px;
 
    border-radius: 10px;
    background-color:var(--color-button);
@@ -388,9 +419,6 @@ text-align: center;
    width: 370px;
    margin-bottom: 30px; 
    margin-right: 30px; 
-   border-bottom-width: 1px;
-   border-bottom-style: solid;
-   border-bottom-color: #EEEEEE;
    padding: 0;
 }
 
@@ -408,20 +436,27 @@ text-align: center;
  .project-foto{
   display: block;
 } 
+.project-text{
+padding: 20px 24px;
+border-bottom: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
+
+}
 
 .project-title{
 color: var(--primary-text-color);
 font-size: 18px;
 font-weight: 700;
 line-height:2;
-padding-top: 20px;
+
 }
 
 .project-design{
 Font-size: 16px;
 Line-height:1.9;
 color:var(--title-text-color);
-padding-top: 4px;
+margin-top: 4px;
 }
 
 
