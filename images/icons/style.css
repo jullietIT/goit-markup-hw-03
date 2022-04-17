@@ -1,0 +1,52 @@
+[class^="i"], [class*=" i"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.iname {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.igroup-2 {
+  width: 0.76953125em;
+}
+
+.igroup-4 {
+  width: 2.0234375em;
+}
+
+.igroup-5 {
+  width: 1.3408203125em;
+}
+
+.iclock {
+  width: 2.25em;
+}
+
+.iantenna {
+  width: 0.9423828125em;
+}
+
+.igroup-6 {
+  width: 2.0888671875em;
+}
+
+.igroup-3 {
+  width: 1.0712890625em;
+}
+
+.ismartphone {
+  width: 0.625em;
+}
+
+.igroup-1 {
+  width: 0.8720703125em;
+}
