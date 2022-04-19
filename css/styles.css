@@ -49,7 +49,9 @@ p{
   margin-bottom: 0
 }
 img {
-  display: block;
+ display: block; 
+ max-width: 100%;
+ height: auto;
  }
 
 .container{
@@ -58,11 +60,23 @@ img {
    padding: 0 15px;
  
 }
-
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
    /* header */
   .container-header {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC ;
   }
 /*logo*/
 .logo {
@@ -106,7 +120,7 @@ img {
  }
 
 .site-nav.item:not(:last-child) {
-  margin-right:50px;
+/* margin-left:50px; */
 }
 
 
@@ -121,10 +135,12 @@ img {
 .link{
   color: var(--primary-text-color);
   padding: 32px 0;
+  margin-right:50px;
 }
  .link-current{
   color:var(--logo-color);
   padding: 32px 0;
+  margin-right:50px;
   }
   
 /*контакты*/
@@ -268,9 +284,12 @@ text-align: center;
   text-align: center;
   
   }
-  
+  .user-foto{
+    display:flex;
+  }
+
 .user-foto-item{
- 
+
     margin-right: 30px;
      }
 
