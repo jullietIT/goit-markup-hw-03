@@ -24,7 +24,7 @@
  font-weight: 400;
   }
 
-header{
+.header{
    border-bottom: 1px solid #ECECEC;
   }
 
@@ -76,7 +76,7 @@ img {
   .container-header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC ;
+
   }
 /*logo*/
 .logo {
@@ -116,11 +116,12 @@ img {
    line-height: 1.1;
    text-decoration:none;
    display: flex; 
+  margin-left:50px;
   
  }
 
 .site-nav.item:not(:last-child) {
-/* margin-left:50px; */
+ margin-left:50px; 
 }
 
 
@@ -365,20 +366,16 @@ text-align: center;
 /*main-portfolio*/
 
 /*кнопки навигации*/
-.button{
-   padding-left: 0;
-}
-
 .section-button{
    display: flex;
    justify-content:center;
    
  }
 
-.button-all {
-   color: var(--accent-color);
-   background-color: var(--logo-color);
-  }
+.button-item:hover, 
+.button-.item-content{
+  background-color: var(--logo-color);
+}
 
  
  .button-item {
@@ -395,19 +392,8 @@ text-align: center;
   .button-item:nth-child(5){
     margin-right: 0px;
   }
-.button-item:hover,
-.button-item:focus {
-    background-color:#2196F3;
-  }
    
- .button-item,
- .button-item{
-   border-color:  #F5F4FA;
-   /* radius: 4px; */
 
-   /* color: var(--accent-color); */
- }
- 
  
 /*project*/
 .project{
