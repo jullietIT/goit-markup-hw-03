@@ -373,7 +373,7 @@ text-align: center;
  }
 
 .button-item:hover, 
-.button-.item-content{
+.button-item:focus{
   background-color: var(--logo-color);
 }
 
