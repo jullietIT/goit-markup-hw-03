@@ -372,11 +372,14 @@ text-align: center;
    
  }
 
-.button-item:hover, 
+/* .button-item:hover, 
 .button-item:focus{
   background-color: var(--logo-color);
+} */
+button:hover,
+button:focus {
+  background-color: var(--logo-color);
 }
-
  
  .button-item {
    margin-right: 8px;
